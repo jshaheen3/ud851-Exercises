@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements GreenAdapter.List
     private RecyclerView mNumbersList;
 
     //  (9) Create a Toast variable called mToast to store the current Toast
-    Toast toast;
+    Toast toast = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
